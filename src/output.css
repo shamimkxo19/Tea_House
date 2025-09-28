@@ -342,9 +342,29 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .xs\:top-50 {
+  .us\:top-30 {
+    @media (width >= 340px) {
+      top: calc(var(--spacing) * 30);
+    }
+  }
+  .us\:top-35 {
+    @media (width >= 340px) {
+      top: calc(var(--spacing) * 35);
+    }
+  }
+  .us\:top-40 {
+    @media (width >= 340px) {
+      top: calc(var(--spacing) * 40);
+    }
+  }
+  .us\:left-5 {
+    @media (width >= 340px) {
+      left: calc(var(--spacing) * 5);
+    }
+  }
+  .xs\:top-55 {
     @media (width >= 400px) {
-      top: calc(var(--spacing) * 50);
+      top: calc(var(--spacing) * 55);
     }
   }
   .xs\:left-15 {
@@ -354,11 +374,6 @@
   }
   .xs2\:top-70 {
     @media (width >= 500px) {
-      top: calc(var(--spacing) * 70);
-    }
-  }
-  .xs3\:top-70 {
-    @media (width >= 620px) {
       top: calc(var(--spacing) * 70);
     }
   }
@@ -412,21 +427,6 @@
   .lg\:top-75 {
     @media (width >= 64rem) {
       top: calc(var(--spacing) * 75);
-    }
-  }
-  .lg\:top-78 {
-    @media (width >= 64rem) {
-      top: calc(var(--spacing) * 78);
-    }
-  }
-  .lg\:top-80 {
-    @media (width >= 64rem) {
-      top: calc(var(--spacing) * 80);
-    }
-  }
-  .lg\:top-85 {
-    @media (width >= 64rem) {
-      top: calc(var(--spacing) * 85);
     }
   }
   .lg\:px-28 {
