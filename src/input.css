@@ -5,4 +5,7 @@
     --color-secondary: #777777;
     --color-text-primary: #1C1C1C;
     --color-custom_orange: #FFC850;
+    --breakpoint-xs: 400px;
+    --breakpoint-xs2: 500px;
+    --breakpoint-xs3: 620px;
 }
